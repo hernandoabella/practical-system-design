@@ -98,17 +98,17 @@
 - Mock System Design Interviews with Evaluation
 - Insider Tips and Red Flags
 ## [Portfolio Projects](./)
-Scalable Chat App
-URL Shortener as a SaaS
-Real-time Collaborative Editor
-Cloud File Sharing System
+- Scalable Chat App
+- URL Shortener as a SaaS
+- Real-time Collaborative Editor
+- Cloud File Sharing System
 ## [Resume, Templates & Tools](./)
-System Design Templates & Notion Docs
-Design Tools (Excalidraw, Whimsical, Miro)
-Common Design Mistakes & Anti-patterns
-System Design Resume & Portfolio Guide
+- System Design Templates & Notion Docs
+- Design Tools (Excalidraw, Whimsical, Miro)
+- Common Design Mistakes & Anti-patterns
+- System Design Resume & Portfolio Guide
 ## [Extra](./)
-16 Real System Design Interview Questions with Detailed Solutions
-13 Interview-Focused System Questions with Hands-on Tutorials
-188+ Diagrams to Visually Explain Every Concept
-300+ Visual System Diagrams (Full Architecture Coverage)
+- 16 Real System Design Interview Questions with Detailed Solutions
+- 13 Interview-Focused System Questions with Hands-on Tutorials
+- 188+ Diagrams to Visually Explain Every Concept
+- 300+ Visual System Diagrams (Full Architecture Coverage)
