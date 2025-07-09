@@ -82,7 +82,7 @@
 - Log Aggregation (ELK Stack, Loki)
 - Distributed Tracing (Jaeger, Zipkin)
 - Health Checks, Alerting
-## [Security & Authentication]
+## [Security & Authentication](./)
 - OAuth2, JWT, Session vs Token
 - Data Encryption (at-rest, in-transit)
 - API Gateway & Rate Limiting
