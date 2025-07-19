@@ -1,114 +1,190 @@
-# Practical System Design
+# Practical System Design – Table of Contents
 
-## [Introduction to System Design](/introduction-to-system-design/)
-- What is System Design?
+---
+
+## 1. Introduction to System Design
+- What Is System Design?
 - Interview vs Real-World Design
 - Scalability, Availability, Reliability
 - Types of Systems: OLTP vs OLAP, Batch vs Real-Time
-## [System Design Process & Framework](/system-design-process-and-framework/)
+- A Framework for System Design Interviews
+- 4-Step Framework for Solving Any System Design Question
+- What Interviewers Really Look For (Insider’s View)
+
+---
+
+## 2. System Design Process & Core Concepts
 - Requirement Gathering
 - Estimating Load & Traffic
+- Back-of-the-Envelope Estimation
 - Designing APIs & Interfaces
 - Defining Bottlenecks & Tradeoffs
 - CAP Theorem in Practice
-- A Framework for System Design Interviews
-- An Insider’s Take on What Interviewers Really Look For and Why
-- A 4-Step Framework for Solving Any System Design Interview Question
-## [Scaling Fundamentals](/scaling-fundamentals/)
-- Scale From Zero to Millions of Users
-- Back-of-the-envelope Estimation
 - Consistency vs Availability
 - Latency vs Throughput
 - Data Freshness vs Cost
 - System Cost vs User Experience
-## [Networking & Delivery](/networking-and-delivery/)
+
+---
+
+## 3. Core Building Blocks & Architecture Fundamentals
 - DNS, CDN, Load Balancers
 - Web Servers & Reverse Proxies
-## [Compute & Application Layer](/compute-and-application-layer/)
-- Application Layer (Monolith vs Microservices)
+- Monolith vs Microservices
 - Containers (Docker, Kubernetes)
 - CI/CD Pipelines
-- Auto Scaling, Blue/Green Deployment
+- Auto Scaling & Blue/Green Deployment
 - Service Discovery (Consul, etcd)
-## [Databases & Storage](/databases-and-storage/)
-- Databases (SQL vs NoSQL vs NewSQL)
+
+---
+
+## 4. Databases, Caching & Queues
+- SQL vs NoSQL vs NewSQL
 - Caching Systems (Redis, Memcached)
+- Caching Strategies (Write-through, TTL, Lazy loading)
 - Queues (Kafka, RabbitMQ, SQS)
+- Database Sharding & Replication
+- Indexing & Search (Elasticsearch)
+
+---
+
+## 5. Storage Systems
 - File Storage (S3, GCS)
 - Blob vs Block vs Object Storage
 - Data Lakes & Warehouses
-- Indexing & Search Systems (Elasticsearch)
-## [Scalability Techniques](/scalability-techniques/)
+
+---
+
+## 6. Scalability Techniques
 - Horizontal vs Vertical Scaling
-- Database Sharding & Replication
-- Caching Strategies (Write-through, Lazy loading, TTL)
 - Asynchronous Processing (Workers, Queues)
 - Rate Limiting & Throttling
-## [Advanced Design Concepts](/advanced-design-concepts/)
-- Design Rate Limiter
-- Design Consistent Hashing
-- Design Unique ID Generator in Distributed Systems
-- Design Key-value Store
-## [Application-Level Design Tutorials](/application-level-design-tutorials/)
-- Design a URL Shortener (Bitly)
-- Design Instagram (Posts, Likes, Feed, Stories)
-- Design WhatsApp (Messaging, Delivery Receipts)
-- Design Uber (GPS, Matching, Pricing)
-- Design Twitter (Fanout, Timelines)
-- Design YouTube (Video Upload, Processing, Streaming)
-- Design an E-commerce Platform (Product Search, Cart, Orders)
-- Design a Notification System (Push, Email, SMS)
-- Design a News Feed System (Ranking, Real-time Feed)
-- Design a Chat System (Real-Time, Websockets)
-- Design a Search Autocomplete System
-- Design Google Drive
-- Design a Web Crawler
-## [Pro-Scale Systems (Inspired by Interview Questions)](/pro-scale-systems/)
-- Proximity Service
-- Nearby Friends
+- Designing Unique ID Generators
+- Consistent Hashing in Distributed Systems
+
+---
+
+## 7. Advanced Infrastructure Patterns
+- Design a Rate Limiter
+- Design an API Gateway
+- Feature Flag Systems
+- Key-Value Store Design
+
+---
+
+## 8. Designing Real-World Systems (Case-Based)
+Each includes: Requirements, APIs, Component Breakdown, Bottlenecks, Tradeoffs
+
+- URL Shortener (Bitly)
+- Instagram (Posts, Feed, Stories)
+- WhatsApp (Messaging, Delivery Receipts)
+- Uber (GPS, Matching, Pricing)
+- Twitter (Fanout, Timelines)
+- YouTube (Upload, Processing, Streaming)
+- Google Drive / Dropbox (Cloud Storage)
+- E-commerce Platform (Product, Cart, Orders)
+- News Feed System
+- Notification System (Email, Push, SMS)
+- Chat System (WebSockets, Real-Time)
+- Search Autocomplete
+- Proximity Service / Nearby Friends
 - Google Maps
-- Distributed Message Queue
-- Metrics Monitoring
-- Ad Click Event Aggregation
-- Hotel Reservation System
-- Distributed Email Service
-- S3-like Object Storage
-- Real-time Gaming Leaderboard
-- Payment System
+- Real-Time Gaming Leaderboard
+- Payment System (Stripe/PayPal)
 - Digital Wallet
+- Distributed Message Queue
+- Metrics Aggregation System
+- Hotel Booking Engine
+- Distributed Email Service
+- Web Crawler
+- S3-like Object Store
 - Stock Exchange
-## [Monitoring, Logging & Observability](/monitoring-logging-and-observability/)
+
+---
+
+## 9. Observability & Monitoring
 - Metrics Collection (Prometheus, Grafana)
 - Log Aggregation (ELK Stack, Loki)
 - Distributed Tracing (Jaeger, Zipkin)
-- Health Checks, Alerting
-## [Security & Authentication](/security-and-authentication/)
+- Health Checks & Alerting
+
+---
+
+## 10. Security & Authentication
 - OAuth2, JWT, Session vs Token
-- Data Encryption (at-rest, in-transit)
-- API Gateway & Rate Limiting
+- Data Encryption (At-Rest, In-Transit)
 - Secure Design Patterns
-## [Cloud & DevOps Essentials](/cloud-and-devops-essentials/)
+- Threat Modeling & Zero Trust
+
+---
+
+## 11. Cloud & DevOps
 - Infrastructure as Code (Terraform, Pulumi)
 - Blue/Green & Canary Deployments
 - Disaster Recovery & Fault Tolerance
-## [Deep Dives](/deep-dives/)
-- Case Study: Instagram Reels Scalability Evolution
-- Case Study: Netflix Global Architecture
-## [Mock Interviews & Practice](./)
-- Mock System Design Interviews with Evaluation
-- Insider Tips and Red Flags
-## [Portfolio Projects](/portfolio-projects/)
-- Scalable Chat App
-- URL Shortener as a SaaS
-- Real-time Collaborative Editor
-- Cloud File Sharing System
-## [Resume, Templates & Tools](/resume-templates-and-tools/)
-- System Design Templates & Notion Docs
-- Design Tools (Excalidraw, Whimsical, Miro)
-- Common Design Mistakes & Anti-patterns
-- System Design Resume & Portfolio Guide
-## [Extra](/extra)
-- 16 Real System Design Interview Questions with Detailed Solutions
-- 13 Interview-Focused System Questions with Hands-on Tutorials
-- 188+ Diagrams to Visually Explain Every Concept
-- 300+ Visual System Diagrams (Full Architecture Coverage)
+- Autoscaling Infrastructure
+- Multi-Cloud & Hybrid Cloud
+
+---
+
+## 12. Design Tradeoffs & Deep Dives
+- Case Study: Instagram Reels Architecture
+- Case Study: Netflix Global Infrastructure
+- Cost-Aware Architecture
+- Multi-Tenancy
+- Global-Scale Architecture
+
+---
+
+## 13. Mock Interviews, Practice Projects & Labs
+- System Design Mock Interviews (with Evaluation)
+- Insider Red Flags to Avoid
+- Portfolio Projects:
+  - Chat App
+  - URL Shortener SaaS
+  - Collaborative Editor
+  - File Sharing Platform
+- Capstone: Design a Full-Scale Social Platform
+
+### Bonus Labs & Simulations:
+- System Design Interview Simulator
+- Live Whiteboard Case Studies
+- Incident Response Simulations (On-Call Labs)
+- Fix This System Challenges
+- Hackathons: Design From Scratch
+- Monitoring Dashboards Lab (Grafana, Prometheus)
+
+---
+
+## 14. Tools, Templates & Final Resources
+- System Design Templates (Notion, Diagrams)
+- Tools: Excalidraw, Whimsical, Miro, Lucidchart
+- Resume & Portfolio Builder Guide
+- Common Mistakes & Anti-patterns
+- Visual Index: 300+ Diagrams & Flowcharts
+
+---
+
+## 15. Complete Interview Question Bank
+**Grouped by Category**:
+
+### Classic Problems
+- Twitter, WhatsApp, Instagram, YouTube, Uber, Dropbox
+
+### Service-Oriented
+- Rate Limiter, Notification System, Feature Flags, Logging, Search
+
+### Scalability Challenges
+- 1M RPS System, Black Friday Surge, Read-heavy Scale, DB Sharding
+
+### Reliability Engineering
+- Disaster Recovery, Partial Failures, Retry Strategies, Fault Injection
+
+### Architecture Decisions
+- SQL vs NoSQL, Push vs Pull, Use of Caching/Queue
+
+### Cloud Infrastructure
+- AWS Deployments, CDN for Video, Kubernetes Deployment
+
+### Behavioral / Meta
+- Debugging Slow APIs, Handling Traffic Spikes, Real System Failures
