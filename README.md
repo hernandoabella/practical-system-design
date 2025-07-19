@@ -2,7 +2,7 @@
 
 ---
 
-## [Introduction to System Design](./introduction-to-system-design.md)
+## [Introduction to System Design](./introduction-to-system-design)
 - What Is System Design?
 - Interview vs Real-World Design
 - Scalability, Availability, Reliability
