@@ -1,5 +1,4 @@
-# Practical System Design – Table of Contents
-
+# Practical System Design
 ## [Introduction to System Design](./introduction-to-system-design)
 - What Is System Design?
 - Interview vs Real-World Design
@@ -8,7 +7,6 @@
 - A Framework for System Design Interviews
 - 4-Step Framework for Solving Any System Design Question
 - What Interviewers Really Look For (Insider’s View)
-
 ## [System Design Process & Core Concepts](./system-design-process-core-concepts)
 - Requirement Gathering
 - Estimating Load & Traffic
@@ -20,7 +18,6 @@
 - Latency vs Throughput
 - Data Freshness vs Cost
 - System Cost vs User Experience
-
 ## Core Building Blocks & Architecture Fundamentals
 - DNS, CDN, Load Balancers
 - Web Servers & Reverse Proxies
@@ -29,7 +26,6 @@
 - CI/CD Pipelines
 - Auto Scaling & Blue/Green Deployment
 - Service Discovery (Consul, etcd)
-
 ## Databases, Caching & Queues
 - SQL vs NoSQL vs NewSQL
 - Caching Systems (Redis, Memcached)
@@ -37,28 +33,23 @@
 - Queues (Kafka, RabbitMQ, SQS)
 - Database Sharding & Replication
 - Indexing & Search (Elasticsearch)
-
 ## Storage Systems
 - File Storage (S3, GCS)
 - Blob vs Block vs Object Storage
 - Data Lakes & Warehouses
-
 ## Scalability Techniques
 - Horizontal vs Vertical Scaling
 - Asynchronous Processing (Workers, Queues)
 - Rate Limiting & Throttling
 - Designing Unique ID Generators
 - Consistent Hashing in Distributed Systems
-
 ## Advanced Infrastructure Patterns
 - Design a Rate Limiter
 - Design an API Gateway
 - Feature Flag Systems
 - Key-Value Store Design
-
 ## Designing Real-World Systems (Case-Based)
 Each includes: Requirements, APIs, Component Breakdown, Bottlenecks, Tradeoffs
-
 - URL Shortener (Bitly)
 - Instagram (Posts, Feed, Stories)
 - WhatsApp (Messaging, Delivery Receipts)
@@ -83,33 +74,28 @@ Each includes: Requirements, APIs, Component Breakdown, Bottlenecks, Tradeoffs
 - Web Crawler
 - S3-like Object Store
 - Stock Exchange
-
 ## Observability & Monitoring
 - Metrics Collection (Prometheus, Grafana)
 - Log Aggregation (ELK Stack, Loki)
 - Distributed Tracing (Jaeger, Zipkin)
 - Health Checks & Alerting
-
 ## Security & Authentication
 - OAuth2, JWT, Session vs Token
 - Data Encryption (At-Rest, In-Transit)
 - Secure Design Patterns
 - Threat Modeling & Zero Trust
-
 ## Cloud & DevOps
 - Infrastructure as Code (Terraform, Pulumi)
 - Blue/Green & Canary Deployments
 - Disaster Recovery & Fault Tolerance
 - Autoscaling Infrastructure
 - Multi-Cloud & Hybrid Cloud
-
 ## Design Tradeoffs & Deep Dives
 - Case Study: Instagram Reels Architecture
 - Case Study: Netflix Global Infrastructure
 - Cost-Aware Architecture
 - Multi-Tenancy
 - Global-Scale Architecture
-
 ## Mock Interviews, Practice Projects & Labs
 - System Design Mock Interviews (with Evaluation)
 - Insider Red Flags to Avoid
@@ -119,7 +105,6 @@ Each includes: Requirements, APIs, Component Breakdown, Bottlenecks, Tradeoffs
   - Collaborative Editor
   - File Sharing Platform
 - Capstone: Design a Full-Scale Social Platform
-
 ### Bonus Labs & Simulations:
 - System Design Interview Simulator
 - Live Whiteboard Case Studies
@@ -127,34 +112,25 @@ Each includes: Requirements, APIs, Component Breakdown, Bottlenecks, Tradeoffs
 - Fix This System Challenges
 - Hackathons: Design From Scratch
 - Monitoring Dashboards Lab (Grafana, Prometheus)
-
 ## Tools, Templates & Final Resources
 - System Design Templates (Notion, Diagrams)
 - Tools: Excalidraw, Whimsical, Miro, Lucidchart
 - Resume & Portfolio Builder Guide
 - Common Mistakes & Anti-patterns
 - Visual Index: 300+ Diagrams & Flowcharts
-
 ## Complete Interview Question Bank
 **Grouped by Category**:
-
 ### Classic Problems
 - Twitter, WhatsApp, Instagram, YouTube, Uber, Dropbox
-
 ### Service-Oriented
 - Rate Limiter, Notification System, Feature Flags, Logging, Search
-
 ### Scalability Challenges
 - 1M RPS System, Black Friday Surge, Read-heavy Scale, DB Sharding
-
 ### Reliability Engineering
 - Disaster Recovery, Partial Failures, Retry Strategies, Fault Injection
-
 ### Architecture Decisions
 - SQL vs NoSQL, Push vs Pull, Use of Caching/Queue
-
 ### Cloud Infrastructure
 - AWS Deployments, CDN for Video, Kubernetes Deployment
-
 ### Behavioral / Meta
 - Debugging Slow APIs, Handling Traffic Spikes, Real System Failures
