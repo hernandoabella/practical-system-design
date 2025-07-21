@@ -1,7 +1,5 @@
 # Practical System Design – Table of Contents
 
----
-
 ## [Introduction to System Design](./introduction-to-system-design)
 - What Is System Design?
 - Interview vs Real-World Design
@@ -11,9 +9,7 @@
 - 4-Step Framework for Solving Any System Design Question
 - What Interviewers Really Look For (Insider’s View)
 
----
-
-## 2. System Design Process & Core Concepts
+## [System Design Process & Core Concepts](system-design-process-core-concepts.md)
 - Requirement Gathering
 - Estimating Load & Traffic
 - Back-of-the-Envelope Estimation
@@ -25,9 +21,7 @@
 - Data Freshness vs Cost
 - System Cost vs User Experience
 
----
-
-## 3. Core Building Blocks & Architecture Fundamentals
+## Core Building Blocks & Architecture Fundamentals
 - DNS, CDN, Load Balancers
 - Web Servers & Reverse Proxies
 - Monolith vs Microservices
@@ -36,9 +30,7 @@
 - Auto Scaling & Blue/Green Deployment
 - Service Discovery (Consul, etcd)
 
----
-
-## 4. Databases, Caching & Queues
+## Databases, Caching & Queues
 - SQL vs NoSQL vs NewSQL
 - Caching Systems (Redis, Memcached)
 - Caching Strategies (Write-through, TTL, Lazy loading)
@@ -46,33 +38,25 @@
 - Database Sharding & Replication
 - Indexing & Search (Elasticsearch)
 
----
-
-## 5. Storage Systems
+## Storage Systems
 - File Storage (S3, GCS)
 - Blob vs Block vs Object Storage
 - Data Lakes & Warehouses
 
----
-
-## 6. Scalability Techniques
+## Scalability Techniques
 - Horizontal vs Vertical Scaling
 - Asynchronous Processing (Workers, Queues)
 - Rate Limiting & Throttling
 - Designing Unique ID Generators
 - Consistent Hashing in Distributed Systems
 
----
-
-## 7. Advanced Infrastructure Patterns
+## Advanced Infrastructure Patterns
 - Design a Rate Limiter
 - Design an API Gateway
 - Feature Flag Systems
 - Key-Value Store Design
 
----
-
-## 8. Designing Real-World Systems (Case-Based)
+## Designing Real-World Systems (Case-Based)
 Each includes: Requirements, APIs, Component Breakdown, Bottlenecks, Tradeoffs
 
 - URL Shortener (Bitly)
@@ -100,43 +84,33 @@ Each includes: Requirements, APIs, Component Breakdown, Bottlenecks, Tradeoffs
 - S3-like Object Store
 - Stock Exchange
 
----
-
-## 9. Observability & Monitoring
+## Observability & Monitoring
 - Metrics Collection (Prometheus, Grafana)
 - Log Aggregation (ELK Stack, Loki)
 - Distributed Tracing (Jaeger, Zipkin)
 - Health Checks & Alerting
 
----
-
-## 10. Security & Authentication
+## Security & Authentication
 - OAuth2, JWT, Session vs Token
 - Data Encryption (At-Rest, In-Transit)
 - Secure Design Patterns
 - Threat Modeling & Zero Trust
 
----
-
-## 11. Cloud & DevOps
+## Cloud & DevOps
 - Infrastructure as Code (Terraform, Pulumi)
 - Blue/Green & Canary Deployments
 - Disaster Recovery & Fault Tolerance
 - Autoscaling Infrastructure
 - Multi-Cloud & Hybrid Cloud
 
----
-
-## 12. Design Tradeoffs & Deep Dives
+## Design Tradeoffs & Deep Dives
 - Case Study: Instagram Reels Architecture
 - Case Study: Netflix Global Infrastructure
 - Cost-Aware Architecture
 - Multi-Tenancy
 - Global-Scale Architecture
 
----
-
-## 13. Mock Interviews, Practice Projects & Labs
+## Mock Interviews, Practice Projects & Labs
 - System Design Mock Interviews (with Evaluation)
 - Insider Red Flags to Avoid
 - Portfolio Projects:
@@ -154,18 +128,14 @@ Each includes: Requirements, APIs, Component Breakdown, Bottlenecks, Tradeoffs
 - Hackathons: Design From Scratch
 - Monitoring Dashboards Lab (Grafana, Prometheus)
 
----
-
-## 14. Tools, Templates & Final Resources
+## Tools, Templates & Final Resources
 - System Design Templates (Notion, Diagrams)
 - Tools: Excalidraw, Whimsical, Miro, Lucidchart
 - Resume & Portfolio Builder Guide
 - Common Mistakes & Anti-patterns
 - Visual Index: 300+ Diagrams & Flowcharts
 
----
-
-## 15. Complete Interview Question Bank
+## Complete Interview Question Bank
 **Grouped by Category**:
 
 ### Classic Problems
