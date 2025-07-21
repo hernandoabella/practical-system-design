@@ -9,7 +9,7 @@
 - 4-Step Framework for Solving Any System Design Question
 - What Interviewers Really Look For (Insider’s View)
 
-## [System Design Process & Core Concepts](system-design-process-core-concepts.md)
+## [System Design Process & Core Concepts](./system-design-process-core-concepts)
 - Requirement Gathering
 - Estimating Load & Traffic
 - Back-of-the-Envelope Estimation
