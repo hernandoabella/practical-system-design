@@ -18,7 +18,7 @@
 - Latency vs Throughput
 - Data Freshness vs Cost
 - System Cost vs User Experience
-## Core Building Blocks & Architecture Fundamentals
+## [Core Building Blocks & Architecture Fundamentals](./core-building-blocks-architecture-fundamentals)
 - DNS, CDN, Load Balancers
 - Web Servers & Reverse Proxies
 - Monolith vs Microservices
