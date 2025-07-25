@@ -26,29 +26,29 @@
 - CI/CD Pipelines
 - Auto Scaling & Blue/Green Deployment
 - Service Discovery (Consul, etcd)
-## Databases, Caching & Queues
+## [Databases, Caching & Queues](./databases-caching-queues/)
 - SQL vs NoSQL vs NewSQL
 - Caching Systems (Redis, Memcached)
 - Caching Strategies (Write-through, TTL, Lazy loading)
 - Queues (Kafka, RabbitMQ, SQS)
 - Database Sharding & Replication
 - Indexing & Search (Elasticsearch)
-## Storage Systems
+## [Storage Systems](./storage-systems/)
 - File Storage (S3, GCS)
 - Blob vs Block vs Object Storage
 - Data Lakes & Warehouses
-## Scalability Techniques
+## [Scalability Techniques](./scalability-techniques/)
 - Horizontal vs Vertical Scaling
 - Asynchronous Processing (Workers, Queues)
 - Rate Limiting & Throttling
 - Designing Unique ID Generators
 - Consistent Hashing in Distributed Systems
-## Advanced Infrastructure Patterns
+## [Advanced Infrastructure Patterns](./advanced-infrastructure-patterns/)
 - Design a Rate Limiter
 - Design an API Gateway
 - Feature Flag Systems
 - Key-Value Store Design
-## Designing Real-World Systems (Case-Based)
+## [Designing Real-World Systems](./designing-real-world-systems/)
 Each includes: Requirements, APIs, Component Breakdown, Bottlenecks, Tradeoffs
 - URL Shortener (Bitly)
 - Instagram (Posts, Feed, Stories)
@@ -74,23 +74,23 @@ Each includes: Requirements, APIs, Component Breakdown, Bottlenecks, Tradeoffs
 - Web Crawler
 - S3-like Object Store
 - Stock Exchange
-## Observability & Monitoring
+## [Observability & Monitoring](./observability-monitoring/)
 - Metrics Collection (Prometheus, Grafana)
 - Log Aggregation (ELK Stack, Loki)
 - Distributed Tracing (Jaeger, Zipkin)
 - Health Checks & Alerting
-## Security & Authentication
+## [Security & Authentication](./security-authentication/)
 - OAuth2, JWT, Session vs Token
 - Data Encryption (At-Rest, In-Transit)
 - Secure Design Patterns
 - Threat Modeling & Zero Trust
-## Cloud & DevOps
+## [Cloud & DevOps](./cloud-devops/)
 - Infrastructure as Code (Terraform, Pulumi)
 - Blue/Green & Canary Deployments
 - Disaster Recovery & Fault Tolerance
 - Autoscaling Infrastructure
 - Multi-Cloud & Hybrid Cloud
-## Design Tradeoffs & Deep Dives
+## [Design Tradeoffs & Deep Dives](./design-tradeoffs-deep-dives/)
 - Case Study: Instagram Reels Architecture
 - Case Study: Netflix Global Infrastructure
 - Cost-Aware Architecture
