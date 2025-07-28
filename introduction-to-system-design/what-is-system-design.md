@@ -1,31 +1,11 @@
-# What Is System Design?
-```
-        ┌───────────────────────┐
-        │  What is System Design?  │
-        └──────────┬──────────────┘
-                   │
-          ┌───────┴───────┐
-          ▼               ▼
-    ┌───────────┐   ┌───────────┐
-    │ Components │   │Characteristics│
-    └─────┬─────┘   └─────┬─────┘
-          │               │
-      ┌───┴───┐       ┌───┴───┐
-      ▼       ▼       ▼       ▼
-┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐
-│Services │ │Infra    │ │Flows    │ │UX       │
-├─────────┤ ├─────────┤ ├─────────┤ ├─────────┤
-│• APIs   │ │• Servers │ │• Client→ │ │• Latency │
-│• DBs    │ │• LB      │ │• Service→│ │• Errors  │
-└─────────┘ │• Cache   │ │→ DB     │ └─────────┘
-            └─────────┘ └─────────┘
-``` 
-System design is the process of defining the architecture, components, modules, interfaces, and data of a system to meet specific requirements. It's essentially a blueprint for building and implementing a system, ensuring it fulfills functional, technical, and business needs. This involves outlining a structured plan for how different parts of the system will interact and work together.
+# What is System Design?
 
-### In simple terms:
-"How would you build [X] to handle [Y users or load]?"
+<img width="464" height="466" alt="Topic (1)" src="https://github.com/user-attachments/assets/cd19463f-fb2b-457f-a880-298c36fdc8bb" />
 
-### For example:
+
+System design is the process of defining the architecture, components, modules, interfaces, and data of a system to meet specific requirements and objectives. It's essentially a blueprint for building and implementing a system, ensuring it fulfills both functional and technical needs, as well as business requirements. This involves outlining a structured plan for how different parts of the system will interact and work together.
+
+### Example:
 - How would you build Instagram for 100 million users?
 - How would you design a messaging system that never loses messages?
 - How would you store terabytes of images with low-latency retrieval?
