@@ -7,9 +7,7 @@ System Design is the process of planning the architecture, components, data flow
 - How would you store terabytes of images with low-latency retrieval?
 
 ## System Design vs Software Design
-<img width="864" height="830" alt="Topic (4)" src="https://github.com/user-attachments/assets/ad5f5275-40f3-455a-8fe8-f87e5e179d18" />
-
-
+<img width="864" height="826" alt="Topic (5)" src="https://github.com/user-attachments/assets/25d11bae-8443-45fe-b204-cf911ce6cafa" />
 
   
 ## What Is a "System"?
