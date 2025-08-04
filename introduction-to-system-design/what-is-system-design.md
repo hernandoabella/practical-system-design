@@ -1,36 +1,16 @@
 # What is System Design?
+System Design is the process of planning the architecture, components, data flow, and infrastructure of a system to meet specific goals. Think of it as the blueprint for building software systems that are scalable, reliable, and maintainable.
 
-<img width="464" height="466" alt="Topic (1)" src="https://github.com/user-attachments/assets/cd19463f-fb2b-457f-a880-298c36fdc8bb" />
-
-
-System design is the process of defining the architecture, components, modules, interfaces, and data of a system to meet specific requirements and objectives. It's essentially a blueprint for building and implementing a system, ensuring it fulfills both functional and technical needs, as well as business requirements. This involves outlining a structured plan for how different parts of the system will interact and work together.
-
-### Example:
+### Example Questions:
 - How would you build Instagram for 100 million users?
 - How would you design a messaging system that never loses messages?
 - How would you store terabytes of images with low-latency retrieval?
- 
+
 ## System Design vs Software Design
-```
-┌───────────────────────┬───────────────────────┐
-│    System Design      │    Software Design    │
-├───────────────────────┼───────────────────────┤
-│ Focuses on:           │ Focuses on:           │
-│ • Entire system       │ • Individual          │
-│   architecture        │   components/modules  │
-│ • Scalability         │ • Code structure      │
-│ • Reliability         │ • Algorithms          │
-│ • Infrastructure      │ • Design patterns     │
-│ • Data flows          │ • Class diagrams      │
-│                       │                       │
-│ Deals with:           │ Deals with:           │
-│ • Distributed systems │ • Implementation      │
-│ • Microservices       │   details             │
-│ • Load balancing      │ • SOLID principles    │
-│ • Databases           │ • Clean code          │
-│ • Caching             │                       │
-└───────────────────────┴───────────────────────┘
-```
+<img width="864" height="830" alt="Topic (4)" src="https://github.com/user-attachments/assets/ad5f5275-40f3-455a-8fe8-f87e5e179d18" />
+
+
+
   
 ## What Is a "System"?
 ```
