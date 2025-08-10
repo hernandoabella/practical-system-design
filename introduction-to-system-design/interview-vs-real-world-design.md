@@ -44,10 +44,10 @@ In production systems, You need to:
 - Can this system evolve, recover, and deliver value in production?
 
 ### Key Differences
-<img width="864" height="518" alt="System Design Graphics (1)" src="https://github.com/user-attachments/assets/413fcff3-ca99-45ca-845c-48772bff4195" />
+<img width="864" height="518" alt="System Design Graphics (10)" src="https://github.com/user-attachments/assets/2d3da6cb-f2ac-4515-87a2-ddea573388e6" />
 
 ### Side-by-Side Example
-<img width="864" height="218" alt="System Design Graphics (2)" src="https://github.com/user-attachments/assets/0b4d7556-61a0-4bb4-8f6d-6aa2d54c315e" />
+<img width="864" height="237" alt="System Design Graphics (9)" src="https://github.com/user-attachments/assets/4fc1c8d2-ff43-4734-a54b-c53db3ecb582" />
 
 ### Final Thought
 A great engineer can navigate both worlds:
