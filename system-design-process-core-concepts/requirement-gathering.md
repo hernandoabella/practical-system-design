@@ -1,6 +1,7 @@
 # Requirement Gathering: Asking the Right Questions
 Your first job is not building, it is understanding.
-Prompts are often vague. Ask questions to uncover what’s missing before you start designing.
+
+**Prompts** are often vague. Ask questions to uncover what’s missing before you start designing.
 
 ## Why Requirement Gathering Matters
 Without asking the right questions:
