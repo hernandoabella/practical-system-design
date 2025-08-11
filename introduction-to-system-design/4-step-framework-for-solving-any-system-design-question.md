@@ -80,7 +80,7 @@ Stress test your design.
 
 ### Prompt: “Design Instagram Stories”
 - **Clarify:** Expiration? Notifications? Privacy controls?
-- **Architecture:** Client → API → Story service → DB/CDN → Notification queue
+- **Architecture:** **Client** → **API** → **Story service** → **DB/CDN** → **Notification queue**
 - **Deep dives:** Story storage (S3 + CDN), story expiration with TTL/cache, user feed generation
 - **Bottlenecks:** Content fanout, CDN cache misses, offline viewing
 
