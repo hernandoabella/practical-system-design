@@ -71,7 +71,7 @@ Stress test your design.
 ### Talk through:
 - Vertical vs horizontal scaling
 - Caching invalidation strategies
-- Tradeoffs between consistency, latency, availability
+- Tradeoffs between consistency, latency, and availability
 - Monitoring, logging, and alerting plans
 
 **Be honest:** No system is perfect. Tradeoffs are real. Show you know them.
