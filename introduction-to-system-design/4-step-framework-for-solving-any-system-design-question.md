@@ -1,6 +1,4 @@
 # 4-Step Framework for Solving Any System Design Interview Question
-> Structure beats spontaneity—every time.
-
 System design interviews are intentionally ambiguous. This framework gives you a repeatable, proven approach to handle any question with confidence and clarity—even if you’ve never seen the problem before.
 
 ## Why Use a Framework?
