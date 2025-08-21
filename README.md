@@ -96,29 +96,10 @@ Each includes: Requirements, APIs, Component Breakdown, Bottlenecks, Tradeoffs
 - Cost-Aware Architecture
 - Multi-Tenancy
 - Global-Scale Architecture
-## Mock Interviews, Practice Projects & Labs
-- System Design Mock Interviews (with Evaluation)
-- Insider Red Flags to Avoid
-- Portfolio Projects:
-  - Chat App
-  - URL Shortener SaaS
-  - Collaborative Editor
-  - File Sharing Platform
-- Capstone: Design a Full-Scale Social Platform
-### Bonus Labs & Simulations:
-- System Design Interview Simulator
-- Live Whiteboard Case Studies
-- Incident Response Simulations (On-Call Labs)
-- Fix This System Challenges
-- Hackathons: Design From Scratch
-- Monitoring Dashboards Lab (Grafana, Prometheus)
-## Tools, Templates & Final Resources
-- System Design Templates (Notion, Diagrams)
-- Tools: Excalidraw, Whimsical, Miro, Lucidchart
-- Resume & Portfolio Builder Guide
-- Common Mistakes & Anti-patterns
-- Visual Index: 300+ Diagrams & Flowcharts
-## Complete Interview Question Bank
+
+---
+
+## Interview Questions
 **Grouped by Category**:
 ### Classic Problems
 - Twitter, WhatsApp, Instagram, YouTube, Uber, Dropbox
